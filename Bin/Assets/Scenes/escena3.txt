@@ -1,0 +1,42 @@
+#lights
+
+newlight
+	direction -6385 -9230 -9245
+	ambient	0.25 0.25 0.25 1.0
+	diffuse	1.0 1.0 1.0 1.0
+	specular 0.4 0.4 0.4 1.0
+	position 474 404 867
+	shadowmapbias 0.003
+	type DIRECTIONAL
+	zfar  2400.0
+	znear 500.0
+	lightvolumeheight 3000
+	lightvolumewidth 3000
+endlight
+
+
+#cameras
+
+newcamera
+	position -769 -146 466
+	direction -29 22 -131
+	up 0.0 1.0 0.0
+	projzfar 3500.0
+	projznear 0.1
+endcamera
+
+#shadow map size
+
+shadowmapsize 800
+
+
+scale 10.0f
+
+#objects
+
+newobject
+	file wasteland.obj
+	position 0 0 0
+	rotation 0 0 0
+endobject
+

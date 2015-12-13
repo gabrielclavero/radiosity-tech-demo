@@ -1,0 +1,40 @@
+#lights
+
+showsky 0
+
+newlight
+	ambient	0.4 0.4 0.4 1
+	diffuse	0.8 0.8 0.8 1.0
+	specular 0.8 0.8 0.8 1.0
+	attenuation 1 1.5 0
+	range 300000.0
+	position 32.73 155.675 342.76
+	shadowmapbias 0.001
+	type POINT
+	zfar 1000.0
+	znear 1
+endlight
+
+#cameras
+
+newcamera
+	position 53 88 -9
+	direction 19.0 35.0 988.0
+	up 0.0 1.0 0.0
+	projzfar 3500.0
+	projznear 0.1
+endcamera
+
+#shadow map size
+
+shadowmapsize 800
+
+scale 10.0f
+
+#objects
+
+newobject
+	file newcornellbox.obj
+	position 0 0 0
+	rotation 0 0 0
+endobject

@@ -1,0 +1,131 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.06.2014 23:17:51
+
+newmtl PostersMaterial
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.9843 0.8843 0.6843
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\posters.jpg
+	map_Kd Wasteland\posters.jpg
+	map_bump Wasteland\posters.bmp
+	bump Wasteland\posters.bmp
+
+newmtl StoneGroundMaterial
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.9725 0.8725 0.6725
+	Ks 0.2549 0.2549 0.2549
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\stoneground.jpg
+	map_Kd Wasteland\stoneground.jpg
+	map_bump Wasteland\stoneground.bmp
+	bump Wasteland\stoneground.bmp
+
+newmtl ColorBrickMaterial
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 1.0000 0.9000 0.8000
+	Ks 0.2549 0.2549 0.2549
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\colorbrick.jpg
+	map_Kd Wasteland\colorbrick.jpg
+	map_bump Wasteland\colorbrick.bmp
+	bump Wasteland\colorbrick.bmp
+
+newmtl WhiteWoodMaterial
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 1.0000 0.9000 0.8000
+	Ks 0.0784 0.0784 0.0784
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\whitewood.jpg
+	map_Kd Wasteland\whitewood.jpg
+	map_bump Wasteland\whitewood.bmp
+	bump Wasteland\whitewood.bmp
+
+newmtl OldMetalMaterial
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7765 0.7373 0.5137
+	Ks 0.2549 0.2549 0.2549
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\oldmetal.jpg
+	map_Kd Wasteland\oldmetal.jpg
+	map_bump Wasteland\oldmetal.bmp
+	bump Wasteland\oldmetal.bmp
+
+newmtl FilthyGroundMaterial
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 1.0000 0.9000 0.7000
+	Ks 0.1333 0.1333 0.1333
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\filthyground.jpg
+	map_Kd Wasteland\filthyground.jpg
+	map_bump Wasteland\filthyground.bmp
+	bump Wasteland\filthyground.bmp
+
+
+newmtl OldMetalMaterial
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7765 0.6373 0.5137
+	Ks 0.2549 0.2549 0.2549
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\oldmetal.jpg
+	map_Kd Wasteland\oldmetal.jpg
+	map_bump Wasteland\oldmetal.bmp
+	bump Wasteland\oldmetal.bmp
+
+newmtl RefillMaterial
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.5843 0.4843 0.3843
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Wasteland\stoneground.jpg
+	map_Kd Wasteland\stoneground.jpg
+	map_bump Wasteland\stoneground.bmp
+	bump Wasteland\stoneground.bmp

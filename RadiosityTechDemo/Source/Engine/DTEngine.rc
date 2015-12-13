@@ -1,0 +1,117 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Argentina) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_ARGENTINA
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 100, 100, 305, 375
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTORADIOBUTTON,19,92,98,8
+    CONTROL         "Windowed",IDC_WINDOWED,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,19,76,98,8
+    LTEXT           "Resolution and Refresh Rate",IDC_STATIC,18,115,98,8
+    COMBOBOX        IDC_RESOLUTION,113,112,159,204,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    CONTROL         "V-Sync",IDC_VSYNC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,74,60,8
+    LTEXT           "Primary Display Adapter",IDC_STATIC,18,28,78,8
+    PUSHBUTTON      "Aceptar",IDC_OK,77,346,50,14
+    PUSHBUTTON      "Cancelar",IDC_CANCEL,162,346,50,14
+    LISTBOX         IDC_LISTScene,21,226,262,112,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Display Settings",IDC_STATIC,10,60,280,71
+    LTEXT           "Scene File",IDC_STATIC,24,212,33,8
+    CONTROL         "Antialiasing",IDC_AACHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,193,73,52,10
+    CONTROL         "GI Enabled",IDC_GICHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,150,51,10
+    CONTROL         "CPU GI",IDC_CPUGICHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,92,148,39,10
+    GROUPBOX        "GI Settings",IDC_STATIC,14,136,276,71
+    COMBOBOX        IDC_VERTICESBAKED,20,167,33,123,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Vertices Baked Per 1st Dispatch",IDC_STATIC,57,169,102,8
+    COMBOBOX        IDC_BOUNCES,175,167,33,123,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Number of Bounces",IDC_STATIC,212,169,63,8
+    CONTROL         "Export Hemicubes",IDC_EXPORTHEMICUBES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,148,73,10
+    CONTROL         "Profiling",IDC_PROFILING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,238,148,41,10
+    LTEXT           "Vertices Baked Per 2nd Dispatch",IDC_STATIC,57,189,104,8
+    COMBOBOX        IDC_VERTICESBAKED3,20,187,33,123,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_ADAPTERNAME,112,28,175,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 368
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Argentina) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

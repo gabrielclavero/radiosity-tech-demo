@@ -1,0 +1,156 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 23.06.2014 16:21:55
+
+newmtl walls_bricks
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6882 0.5882 0.4882
+	Kd 0.8282 0.7882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\yellowbricks.jpg
+	map_Kd Squarechurch\yellowbricks.jpg
+	map_bump Squarechurch\yellowbricks.bmp
+	bump Squarechurch\yellowbricks.bmp
+
+newmtl floor_level_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4882 0.3882 0.2882
+	Kd 2 2 2
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\floormosaic.jpg
+	map_Kd Squarechurch\floormosaic.jpg
+	map_bump Squarechurch\floormosaic.bmp
+	bump Squarechurch\floormosaic.bmp
+
+newmtl railing
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.5310 0.5310 0.5310
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\oldmetal.jpg
+	map_Kd Squarechurch\oldmetal.jpg
+	map_bump Squarechurch\oldmetal.bmp
+	bump Squarechurch\oldmetal.bmp
+
+newmtl door_wood
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6882 0.5882 0.4882
+	Kd 0.8882 0.7882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\brownwood.jpg
+	map_Kd Squarechurch\brownwood.jpg
+	map_bump Squarechurch\brownwood.bmp
+	bump Squarechurch\brownwood.bmp
+
+newmtl lamp_glass
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl railingasas
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1882 0.1882 0.1882
+	Kd 0.3882 0.3882 0.1882
+	Ks 0.5310 0.5310 0.5310
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\oldmetal.jpg
+	map_Kd Squarechurch\oldmetal.jpg
+	map_bump Squarechurch\oldmetal.bmp
+	bump Squarechurch\oldmetal.bmp
+
+newmtl wire_143224087
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5608 0.8784 0.3412
+	Kd 0.5608 0.8784 0.3412
+	Ks 0.3500 0.3500 0.3500
+	
+newmtl bancos
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.8882 0.7882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Squarechurch\redwood.jpg
+	map_Kd Squarechurch\redwood.jpg
+	map_bump Squarechurch\redwood.bmp
+	bump Squarechurch\redwood.bmp
+
+newmtl rejas
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0882 0.0882 0.0882
+	Kd 0.1582 0.1582 0.1582
+	Ks 0.5310 0.5310 0.5310
+	Ke 0.0000 0.0000 0.0000
+	
+newmtl Material__26
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7294 0.7922 0.7961
+	Kd 0.7294 0.7922 0.7961
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 12___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0863 0.0863 0.0863
+	Kd 0.0863 0.0863 0.0863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
