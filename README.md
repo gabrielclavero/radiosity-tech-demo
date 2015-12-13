@@ -7,41 +7,41 @@ A technical demonstration of the radiosity algorithm achieved with GPGPU computi
 ### 1 Requirements
 #### 1.1 To run:
 
-Windows 7  
-Visual C++ Redistributable for Visual Studio 2012 (x86) [http://www.microsoft.com/en-us/download/details.aspx?id=30679](http://www.microsoft.com/en-us/download/details.aspx?id=30679)  
-Other required DLLs are in the Bin folder. Therefore the program must be run from that location or copy the DLLs in C:\Windows\SysWOW64  
-Compatible videocard with Directx 11 or greater.  
+- Windows 7  
+- Visual C++ Redistributable for Visual Studio 2012 (x86) [http://www.microsoft.com/en-us/download/details.aspx?id=30679](http://www.microsoft.com/en-us/download/details.aspx?id=30679)  
+- Other required DLLs are in the Bin folder. Therefore the program must be run from that location or copy the DLLs in C:\Windows\SysWOW64  
+- Compatible videocard with Directx 11 or greater.  
 
 #### 1.2 To compile:
 
-Windows 7  
-Visual Studio 2012  
-Windows SDK [http://msdn.microsoft.com/en-us/windows/desktop/bg162891.aspx](http://msdn.microsoft.com/en-us/windows/desktop/bg162891.aspx)  
+- Windows 7  
+- Visual Studio 2012  
+- Windows SDK [http://msdn.microsoft.com/en-us/windows/desktop/bg162891.aspx](http://msdn.microsoft.com/en-us/windows/desktop/bg162891.aspx)  
     
 ### 2 Directories
 #### 2.1 Bin
 
-Program executable  
-Required dynamic libraries that are not shipped with Windows 7  
-Assets directory with shaders and test scenes  
+- Program executable  
+- Required dynamic libraries that are not shipped with Windows 7  
+- Assets directory with shaders and test scenes  
     
 #### 2.2 Dependencies
 
-Libraries and .h files required to compile the program and that are not shipped with Windows SDK.
+- Libraries and .h files required to compile the program and that are not shipped with Windows SDK.
     
 #### 2.3 RadiosityTechDemo
 
-Solution and Project of VS2012  
-C++ source code in Source\ and Source\Engine  
-Shaders source code, configuration file of Profiler in Engine\Shaders  
+- Solution and Project of VS2012  
+- C++ source code in Source\ and Source\Engine  
+- Shaders source code, configuration file of Profiler in Engine\Shaders  
     
 ### 3 How to improve quality of shadow maps
 
 If you have a video card with a decent amount of RAM it is possible to improve the quality of the shadows (specially in the test scene 2) with the following steps:  
   
-Increase the value of the shadowmapsize parameter in the .txt file of the scene you want to test  
-Use this same value in the SMAP_SIZE constant in RadiosityTechDemo\Source\Engine\Shaders\shadowFunctions.fx  
-Compile RadiosityTechDemo\Source\Engine\Shaders\commonMaterialShader.fx by running RadiosityTechDemo\Source\Engine\Shaders\compileNormalShader.bat and copy the output .fxo file to Bin\Assets\Shaders  
+- Increase the value of the shadowmapsize parameter in the .txt file of the scene you want to test  
+- Use this same value in the SMAP_SIZE constant in RadiosityTechDemo\Source\Engine\Shaders\shadowFunctions.fx  
+- Compile RadiosityTechDemo\Source\Engine\Shaders\commonMaterialShader.fx by running RadiosityTechDemo\Source\Engine\Shaders\compileNormalShader.bat and copy the output .fxo file to Bin\Assets\Shaders  
     
 ### 4 Create other test scenes
 
